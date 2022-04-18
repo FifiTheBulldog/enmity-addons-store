@@ -38,7 +38,7 @@
 pluginUrl.slice(0, -10);
           if (pluginUrl.endsWith("/")) pluginUrl = pluginURL.slice(0, -1);
           location.href = 
-`com.hammerandchisel.discord://enmity?id=-1&command=install-plugin&params=${location.href}/plugins/${button.dataset.name}.js`
+`com.hammerandchisel.discord://enmity?id=-1&command=install-plugin&params=${pluginUrl}/plugins/${button.dataset.name}.js`
         };
       });      
     </script>
