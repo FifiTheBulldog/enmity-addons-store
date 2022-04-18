@@ -33,7 +33,8 @@
 
       buttons.forEach(button => {
         button.onclick = () => {
-          location.href = `com.hammerandchisel.discord://enmity?id=-1&command=install-plugin&params=${location.origin}/plugins/${button.dataset.name}.js`
+          location.href = 
+`com.hammerandchisel.discord://enmity?id=-1&command=install-plugin&params=${location.href}/plugins/${button.dataset.name}.js`
         };
       });      
     </script>
