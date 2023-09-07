@@ -9,4 +9,4 @@ pnpm run build
 cp dist/*.js* "${OUT_DIR}plugins/"
 
 cd ../enmity-store/
-go run cmds/store/main.go -name "FifiTheBulldog's Enmity Plugins" -dir $OUT_DIR
+go run cmds/store/main.go -name "Colin's Enmity Plugins" -dir $OUT_DIR
